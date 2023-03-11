@@ -1,6 +1,6 @@
 export default {
     path: '/',
-    component: () => import('@/layouts/Site.vue'),
+    component: () => import('@/layouts/site/Site.vue'),
     children: [
         {
             meta: {
