@@ -11,4 +11,9 @@ const router = createRouter({
     routes
 })
 
+const DEFAULT_TITLE = 'GAPP LABS, INC.';
+router.beforeEach((to) => {
+    document.title = to.meta.title + ' - ' +  DEFAULT_TITLE || DEFAULT_TITLE;
+})
+
 export default router
