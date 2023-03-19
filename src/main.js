@@ -5,6 +5,8 @@ import Vuetify from "@/plugins/vuetify";
 import App from './App.vue'
 
 import './assets/css/site/site.css'
+import 'bulma/css/bulma.css'
+
 
 const app = createApp(App)
 app.use(Router)
